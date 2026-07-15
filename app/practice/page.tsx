@@ -46,6 +46,10 @@ const translations: Record<Lang, Dictionary> = {
       { title: "Direito de Família", text: "Acompanhamento sensível em casos de divórcio, guarda e sucessões." },
       { title: "Direitos Sucessórios", text: "Estratégias para proteger património e gerir heranças." },
       { title: "Direito Administrativo", text: "Estratégias para proteger património e gerir heranças." },
+      {title: "Petróleo e Gás", text: "Assessoria jurídica em projetos de exploração, produção, licenciamento, contratos e conformidade regulatória no setor energético."},
+      {title: "Contencioso", text: "Representação jurídica em litígios, processos judiciais e resolução de conflitos."},
+      {title: "Direito Penal", text: "Representação e acompanhamento jurídico em processos criminais, garantindo a proteção dos direitos e interesses dos clientes."
+}
     ],
     back: "Voltar para a página inicial",
     ctaLabel: "Agendar uma Consulta",
@@ -67,7 +71,10 @@ const translations: Record<Lang, Dictionary> = {
       { title: "Real Estate Transactions", text: "Full support for property purchases, sales, and contracts." },
       { title: "Family Law", text: "Sensitive guidance in divorce, custody, and succession cases." },
       { title: "Succession Rights", text: "Strategies to protect assets and manage inheritances." },
-      {title: "Administrative Law", text: "Legal guidance on administrative procedures, regulatory compliance, and representation before public authorities."}
+      {title: "Administrative Law", text: "Legal guidance on administrative procedures, regulatory compliance, and representation before public authorities."},
+      {title: "Oil & Gas", text: "Advising clients on legal matters related to exploration, production, licensing, contracts, and regulatory compliance in the energy sector."},
+      {title: "Litigation", text: "Legal representation in disputes, court proceedings, and conflict resolution."},
+      {title: "Criminal Law", text: "Representation and legal support in criminal cases, ensuring the protection of clients' rights and providing strategic defense."},
     ],
     back: "Back to Home",
     ctaLabel: "Book a Consultation",
@@ -94,6 +101,68 @@ const AREA_ICONS = [
     <path d="M15 3v3h3" />
     <path d="M9 12h6M9 16h6" />
   </svg>,
+  <svg
+  key="administrative-law"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth={1.6}
+  strokeLinecap="round"
+  strokeLinejoin="round"
+>
+  <path d="M3 21h18" />
+  <path d="M5 21V9l7-5 7 5v12" />
+  <path d="M9 21v-8h6v8" />
+  <path d="M8 9h8" />
+</svg>,
+  
+  <svg
+  key="oil-gas"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth={1.6}
+  strokeLinecap="round"
+  strokeLinejoin="round"
+>
+  <path d="M4 20h16" />
+  <path d="M7 20v-5l5-3 5 3v5" />
+  <path d="M12 12V5" />
+  <path d="M8 5h8" />
+  <path d="M10 5V3h4v2" />
+  <path d="M9 9h6" />
+</svg>,
+<svg
+  key="litigation"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth={1.6}
+  strokeLinecap="round"
+  strokeLinejoin="round"
+>
+  <path d="M12 3v18" />
+  <path d="M6 7h12" />
+  <path d="M8 7l-3 6a3 3 0 006 0L8 7z" />
+  <path d="M16 7l-3 6a3 3 0 006 0l-3-6z" />
+  <path d="M8 21h8" />
+</svg>,
+<svg
+  key="criminal-law"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth={1.6}
+  strokeLinecap="round"
+  strokeLinejoin="round"
+>
+  <path d="M14 5l5 5" />
+  <path d="M12 7l5 5" />
+  <path d="M4 20l8-8" />
+  <path d="M3 21h6" />
+  <path d="M7 16l3 3" />
+</svg>
+
 ];
 
 function useInView<T extends HTMLElement>() {
