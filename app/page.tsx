@@ -54,7 +54,7 @@ const translations = {
     footerRights: "Todos os direitos reservados.",
     statusSending: "A processar o seu pedido...",
     statusPhone:
-      "Obrigado! Ligue para +258 84 490 6000 — estamos disponíveis em horário comercial.",
+      "Obrigado! Ligue para +258 84 490 6000 - estamos disponíveis em horário comercial.",
     statusEmail: "Obrigado! Escreva para Ena@gmail.com e responderemos em breve.",
   },
   en: {
@@ -106,7 +106,7 @@ const translations = {
     footerRights: "All rights reserved.",
     statusSending: "Processing your request...",
     statusPhone:
-      "Thanks! Call +258 84 123 4567-we're available during business hours.",
+      "Thanks! Call +258 84 490 6000 - we're available during business hours.",
     statusEmail: "Thanks! Write to Ena@gmail.com and we'll reply shortly.",
   },
 };

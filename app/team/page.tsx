@@ -53,7 +53,7 @@ const translations: Record<Lang, Dictionary> = {
         initials: "AK",
         name: "Dr. Angelo NK",
         role: "Advogado em Litígios Empresariais",
-        image: "/file.svg",
+        image: "/Angelo.jpeg",
       },
       {
         initials: "JR",
@@ -90,7 +90,7 @@ const translations: Record<Lang, Dictionary> = {
 function useInView<T extends HTMLElement>() {
   const ref = useRef<T>(null);
   const supportsIntersection = typeof window !== "undefined" && "IntersectionObserver" in window;
-  const [inView, setInView] = useState(() => !supportsIntersection);
+  const [inView, setInView] = useState(false);
 
   useEffect(() => {
     if (!supportsIntersection) return;

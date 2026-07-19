@@ -45,7 +45,7 @@ const translations: Record<Lang, Dictionary> = {
       { title: "Transações Imobiliárias", text: "Assessoria completa em compra, venda e contratos imobiliários." },
       { title: "Direito de Família", text: "Acompanhamento sensível em casos de divórcio, guarda e sucessões." },
       { title: "Direitos Sucessórios", text: "Estratégias para proteger património e gerir heranças." },
-      { title: "Direito Administrativo", text: "Estratégias para proteger património e gerir heranças." },
+      { title: "Direito Administrativo", text: "Representação e consultoria em assuntos relacionados com órgãos públicos, licenças, recursos e processos administrativos."},
       {title: "Petróleo e Gás", text: "Assessoria jurídica em projetos de exploração, produção, licenciamento, contratos e conformidade regulatória no setor energético."},
       {title: "Contencioso", text: "Representação jurídica em litígios, processos judiciais e resolução de conflitos."},
       {title: "Direito Penal", text: "Representação e acompanhamento jurídico em processos criminais, garantindo a proteção dos direitos e interesses dos clientes."
