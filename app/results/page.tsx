@@ -46,6 +46,7 @@ const translations: Record<Lang, Dictionary> = {
       { title: "Resolução eficaz", text: "Acordos sólidos em litígios corporativos complexos." },
       { title: "Presença nacional", text: "Atuação em várias capitais e tribunais de Moçambique." },
       { title: "Direito de família", text: "Acompanhamento sensível em divórcio e guarda." },
+      {title: "Rápido e Responsivo", text: "Soluções digitais eficientes, com carregamento rápido e design adaptável para garantir uma experiência simples e intuitiva em todos os dispositivos."},
     ],
     back: "Voltar para a página inicial",
     ctaLabel: "Agendar uma Consulta",
@@ -66,7 +67,7 @@ const translations: Record<Lang, Dictionary> = {
       { title: "95% satisfaction", text: "The vast majority of our clients recommend the firm to others.", featured: true },
       { title: "Effective resolution", text: "Strong settlements in complex corporate disputes." },
       { title: "National reach", text: "We work across courts throughout Mozambique." },
-      { title: "Family law", text: "Sensitive guidance in divorce and custody cases." },
+      { title: "Fast & Responsive", text: "Built for performance with fast loading times and a responsive design that adapts to any screen size." },
     ],
     back: "Back to Home",
     ctaLabel: "Book a Consultation",
@@ -177,6 +178,7 @@ export default function ResultsPage() {
                 {String(index + 1).padStart(2, "0")}
               </span>
             </article>
+            
           ))}
         </section>
 
