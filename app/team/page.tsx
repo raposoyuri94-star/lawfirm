@@ -78,7 +78,7 @@ const translations: Record<Lang, Dictionary> = {
     description:
       "Each team member brings deep experience and personalized attention to support your case.",
     members: [
-      { initials: "LK", name: "Dra. Lizzy NK", role: "Family Law attorney", image: "/team/lizzy.jpg" },
+      { initials: "LK", name: "Dra. Lizzy NK", role: "Family Law attorney", image: "/Angelo.jpeg" },
       { initials: "AK", name: "Dr. Angelo NK", role: "Corporate Litigation attorney", image: "/Angelo.jpeg" },
       { initials: "JR", name: "Dr. Jeff R.", role: "Real Estate Transactions specialist", image: "/team/jeff.jpg" },
     ],
