@@ -47,7 +47,7 @@ const translations: Record<Lang, Dictionary> = {
         initials: "LK",
         name: "Dra. Lizzy NK",
         role: "Advogada especialista em Direito de Família",
-        image: "/hammer-justice.svg",
+        image:  "/Angelo.jpeg",
       },
       {
         initials: "AK",
@@ -59,7 +59,7 @@ const translations: Record<Lang, Dictionary> = {
         initials: "JR",
         name: "Dr. Jeff R.",
         role: "Especialista em Transações Imobiliárias",
-        image: "/globe.svg",
+        image:  "/Angelo.jpeg",
       },
     ],
     back: "Voltar para a página inicial",
@@ -80,7 +80,7 @@ const translations: Record<Lang, Dictionary> = {
     members: [
       { initials: "LK", name: "Dra. Lizzy NK", role: "Family Law attorney", image: "/Angelo.jpeg" },
       { initials: "AK", name: "Dr. Angelo NK", role: "Corporate Litigation attorney", image: "/Angelo.jpeg" },
-      { initials: "JR", name: "Dr. Jeff R.", role: "Real Estate Transactions specialist", image: "/team/jeff.jpg" },
+      { initials: "JR", name: "Dr. Jeff R.", role: "Real Estate Transactions specialist", image:  "/Angelo.jpeg" },
     ],
     back: "Back to Home",
     ctaLabel: "Book a Consultation",
