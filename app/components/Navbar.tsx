@@ -6,7 +6,7 @@ import gsap from "gsap";
 import { copy, type Locale } from "./site-content";
 export const routes = ["/", "/practice", "/results", "/about", "/team"];
 export function Brand() {
-    return <Link href="/" className="brand" aria-label="ENA — Home"><span className="brand-mark">ena<span>.</span></span><span className="brand-caption">Advogados<br />& Consultores</span></Link>;
+    return <Link href="/" className="brand" aria-label="ENA. Home"><span className="brand-mark">ena<span>.</span></span><span className="brand-caption">Advogados<br />& Consultores</span></Link>;
 }
 export default function Navbar({ lang, setLang }: {
     lang: Locale;

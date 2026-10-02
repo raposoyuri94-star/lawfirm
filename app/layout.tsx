@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 export const metadata: Metadata = {
     title: { default: "ENA | Advogados & Consultores", template: "%s | ENA" },
-    description: "Assessoria jurídica próxima e estratégica para pessoas e empresas em Moçambique. ENA — Advogados & Consultores.",
+    description: "ENA Advogados & Consultores. Advocacia e consultoria jurídica para particulares e empresas em Moçambique.",
 };
 export default function RootLayout({ children }: Readonly<{
     children: React.ReactNode;
